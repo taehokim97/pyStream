@@ -5,7 +5,7 @@
 - `>=3.8`
 #### packages
 - `numpy`
-- `pillow`
+- `opencv-python`
 
 ## todo
 - [x] Begin a project!
