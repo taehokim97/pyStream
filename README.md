@@ -9,3 +9,4 @@
 
 ## todo
 - [x] Begin a project!
+- [ ] Implement Server class
