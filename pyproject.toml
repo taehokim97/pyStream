@@ -3,7 +3,7 @@ name = "pystream"
 version = "0.1.0"
 description = "Simple video streaming"
 authors = [
-    { name = "Taeho Kim", email = "sinabero3271@gmail" }
+    { name = "Taeho Kim", email = "sinabero3271@gmail.com" }
 ]
 dependencies = [
     "pillow>=10.4.0",
