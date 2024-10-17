@@ -10,8 +10,21 @@
 #   universal: false
 
 -e file:.
+colorama==0.4.6
+    # via pytest
+exceptiongroup==1.2.2
+    # via pytest
+iniconfig==2.0.0
+    # via pytest
 numpy==1.24.4
     # via opencv-python
     # via pystream
 opencv-python==4.10.0.84
     # via pystream
+packaging==24.1
+    # via pytest
+pluggy==1.5.0
+    # via pytest
+pytest==8.3.3
+tomli==2.0.2
+    # via pytest
