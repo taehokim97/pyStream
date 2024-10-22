@@ -3,11 +3,8 @@ import struct
 from queue import PriorityQueue
 
 from pystream.constants import PACKET_HEADER_SIZE, STRUCT_PACK_FORMAT
-from pystream.utils.validation import (
-    validate_ipv4_address,
-    validate_packet_size,
-    validate_port,
-)
+from pystream.utils.validation import (validate_ipv4_address,
+                                       validate_packet_size, validate_port)
 
 
 def receive_stream_via_udp(ip: str, port: int, packet_size: int):

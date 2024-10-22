@@ -1,9 +1,8 @@
 import threading as th
-from queue import PriorityQueue, Empty
+from queue import Empty, PriorityQueue
 
 import cv2
 import numpy as np
-
 
 from pystream.core import receive_stream_via_udp
 

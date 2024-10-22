@@ -5,11 +5,8 @@ Utility functions for data validation
 import socket
 
 from pystream.constants import PACKET_HEADER_SIZE, PACKET_MAX_SIZE
-from pystream.exceptions import (
-    InvalidIPAddressError,
-    InvalidPacketSizeError,
-    InvalidPortError,
-)
+from pystream.exceptions import (InvalidIPAddressError, InvalidPacketSizeError,
+                                 InvalidPortError)
 
 
 def __is_exact_int(value: int) -> bool:

@@ -6,16 +6,11 @@ from time import sleep
 from typing import Generator, Tuple
 
 from pystream.constants import STRUCT_PACK_FORMAT
-from pystream.exceptions import (
-    FailedToCreatePacketError,
-    FailedToDataGenerationError,
-    FailedToSendPacketError,
-)
-from pystream.utils.validation import (
-    validate_ipv4_address,
-    validate_packet_size,
-    validate_port,
-)
+from pystream.exceptions import (FailedToCreatePacketError,
+                                 FailedToDataGenerationError,
+                                 FailedToSendPacketError)
+from pystream.utils.validation import (validate_ipv4_address,
+                                       validate_packet_size, validate_port)
 
 
 def stream_via_udp(
