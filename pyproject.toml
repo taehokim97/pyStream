@@ -1,7 +1,7 @@
 [project]
 name = "pystream"
-version = "0.1.0"
-description = "Simple video streaming"
+version = "1.0.0"
+description = "Simple data streaming"
 authors = [
     { name = "Taeho Kim", email = "sinabero3271@gmail.com" }
 ]
