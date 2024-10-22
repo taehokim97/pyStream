@@ -10,8 +10,3 @@
 #   universal: false
 
 -e file:.
-numpy==1.24.4
-    # via opencv-python
-    # via pystream
-opencv-python==4.10.0.84
-    # via pystream

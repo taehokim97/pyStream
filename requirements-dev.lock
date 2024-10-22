@@ -10,8 +10,34 @@
 #   universal: false
 
 -e file:.
-numpy==1.24.4
+black==24.10.0
+click==8.1.7
+    # via black
+colorama==0.4.6
+    # via click
+    # via pytest
+exceptiongroup==1.2.2
+    # via pytest
+iniconfig==2.0.0
+    # via pytest
+isort==5.13.2
+mypy-extensions==1.0.0
+    # via black
+numpy==2.1.2
     # via opencv-python
-    # via pystream
 opencv-python==4.10.0.84
-    # via pystream
+packaging==24.1
+    # via black
+    # via pytest
+pathspec==0.12.1
+    # via black
+platformdirs==4.3.6
+    # via black
+pluggy==1.5.0
+    # via pytest
+pytest==8.3.3
+tomli==2.0.2
+    # via black
+    # via pytest
+typing-extensions==4.12.2
+    # via black
